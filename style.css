@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'pacific';
+    src: url('assets/fonts/Pacifico-Regular.ttf');
+}
+
+#titulo-principal { 
+    color: #7ec58a;
+}
+
+#legenda-form {
+    color: #74433f;
+}
+
+body {
+    background-color: bisque;
+}
+.pink {
+    color: #7ec58a;
+}
+.font-style {
+    font-family: 'pacific'
+}
+
+#letras {
+    display: grid;
+    justify-content: center;
+    width: 300px;
+    text-align: center;
+}
+
+
+a {
+    font-size: 30px;
+    text-decoration: none ;
+    text-align: center;
+    display: flex;
+}
+
+#buttons {
+    display: flex;
+    gap: 15px;
+    padding: 10px;
+}
